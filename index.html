@@ -1,21 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Andreas Riedl | Cybersecurity Portfolio</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+  </style>
 </head>
-<body class="bg-gray-900 text-white font-sans">
-  <header class="p-6 border-b border-gray-700">
-    <h1 class="text-3xl font-bold">Andreas Riedl</h1>
-    <p class="text-gray-400">Cybersecurity Enthusiast | Junior Security Consultant | Lifelong Learner</p>
+<body class="bg-gray-950 text-gray-100">
+  <header class="p-8 border-b border-gray-800 bg-gray-900 shadow">
+    <div class="max-w-5xl mx-auto flex items-center space-x-4">
+      <img src="assets/img/logo-ariedl.png" alt="Andreas Riedl Logo" class="h-12 w-auto">
+      <div>
+        <h1 class="text-3xl font-bold text-white">Andreas Riedl</h1>
+        <p class="text-gray-400 text-sm mt-1">
+          Cybersecurity Enthusiast · Junior Security Consultant · Lifelong Learner
+        </p>
+      </div>
+    </div>
   </header>
 
-  <main class="p-6 max-w-4xl mx-auto">
-    <section class="mb-10">
-      <h2 class="text-2xl font-semibold mb-4">About Me</h2>
-      <p class="text-gray-300">
+  <main class="p-6 max-w-5xl mx-auto">
+    <section class="mb-12">
+      <h2 class="text-2xl font-semibold mb-4 border-b border-gray-700 pb-2">👨‍💻 About Me</h2>
+      <p class="text-gray-300 leading-relaxed">
         I'm Andreas Riedl, an aspiring cybersecurity professional with a strong background in IT systems integration
         and a growing focus on offensive and defensive security. I combine technical curiosity with hands-on learning
         and a strategic mindset. This portfolio showcases real and realistic case studies I’ve created to demonstrate
@@ -23,24 +35,29 @@
       </p>
     </section>
 
-    <section class="mb-10">
-      <h2 class="text-2xl font-semibold mb-4">Projects</h2>
-      <ul class="space-y-4">
-        <li>
-          <a href="projects/hashcrack-lab.html" class="text-blue-400 hover:underline text-lg">🔐 HashCrack Lab</a>
-          <p class="text-gray-400 text-sm">Regex-based hash detection, cracking methods, and analysis of hash types.</p>
+    <section class="mb-12">
+      <h2 class="text-2xl font-semibold mb-4 border-b border-gray-700 pb-2">🧪 Projects</h2>
+      <ul class="space-y-6">
+        <li class="bg-gray-900 p-5 rounded-xl border border-gray-800 shadow hover:shadow-lg transition-all">
+          <a href="projects/hashcrack-lab.html" class="text-blue-400 hover:underline text-xl font-medium">🔐 HashCrack Lab</a>
+          <p class="text-gray-400 text-sm mt-1">Regex-based hash detection, cracking methods, and analysis of hash types.</p>
         </li>
         <!-- Add more projects here -->
       </ul>
     </section>
 
-    <section>
-      <h2 class="text-2xl font-semibold mb-4">Contact</h2>
-      <p class="text-gray-300">Feel free to connect with me on <a href="https://www.linkedin.com/in/andreas-riedl-ra/" class="text-blue-400 hover:underline">LinkedIn</a> or check out my <a href="https://github.com/0mniByt3" class="text-blue-400 hover:underline">GitHub</a>.</p>
+    <section class="mb-12">
+      <h2 class="text-2xl font-semibold mb-4 border-b border-gray-700 pb-2">📬 Contact</h2>
+      <p class="text-gray-300">
+        Feel free to connect with me on
+        <a href="https://www.linkedin.com/in/andreas-riedl" class="text-blue-400 hover:underline">LinkedIn</a>
+        or check out my
+        <a href="https://github.com/0mniByt3" class="text-blue-400 hover:underline">GitHub</a> profile.
+      </p>
     </section>
   </main>
 
-  <footer class="p-6 text-center text-gray-500 border-t border-gray-700 mt-12">
+  <footer class="p-6 text-center text-gray-500 border-t border-gray-800 bg-gray-900">
     &copy; 2025 Andreas Riedl. All rights reserved.
   </footer>
 </body>
